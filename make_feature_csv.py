@@ -45,6 +45,13 @@ def cand_list(line):
   In: Sentence 3 rankings: {colourful} {bright} {brilliant} {gleam, luminous}
   Out: [['colourful'], ['bright'], ['brilliant'], ['gleam', 'luminous']]
   '''
+  # ^ : 行の先頭にmatchさせている
+  # . : 改行以外の任意の文字にmatchする
+  # + : 直前のREに作用してREを一回以上繰り返したものにmatchを行う
+  # \ : それを正規表現としてでなく文字列として扱っている
+  # () : 丸括弧にどんな正規表現があってもmatchする
+  # ? : 直線の文字を0または1回だけ繰り返したものを返す
+  # $ : 文字列の末尾、文字列の末尾の改行の直線とmatchする
   m = re.match('^Sentence .+ rankings: (\{.+\})', line)
   cands = m.group(1)
   clist = []
