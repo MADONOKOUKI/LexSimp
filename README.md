@@ -16,7 +16,7 @@ This project includes: (libraries)
 
 
 ### Develop
-### Ordinal way
+## Ordinal way
 0. install virtualenv
 ```
 $ sudo easy_install virtualenv
@@ -44,7 +44,7 @@ $ source bin/activate
 %
 ```
 
-### Today
+## Today
 
 0. download (https://repo.continuum.io/archive/Anaconda3-4.4.0-MacOSX-x86_64.pkg)
 
