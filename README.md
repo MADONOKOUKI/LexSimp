@@ -64,12 +64,6 @@ more information (http://conda.pydata.org/docs/using/envs.html#share-an-environm
 
 3. conda install (libraries)
 
-### Release
-1. create a release branch from dev.
-2. fix, refactor, and adjust for release.
-3. test and code review, then push.
-4. create pull request to dev and master branch with reviewer.
-5. if through test case and code review, update is done.
 
 ### When Push
 1. Check your branch latest version.
